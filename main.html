@@ -2,7 +2,7 @@
 <html>
 <head>
     <style>
-        table, th, td {
+        table, td {
             border: 1px solid black;
             border-collapse: collapse;
         }
@@ -11,84 +11,66 @@
 <body>
 
 <table>
-    <tbody>
-        <tr>
-            <td>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nested Table 1</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Data 1</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td>Nested Table 1</td>
+                </tr>
+                <tr>
+                    <td>Data 1</td>
+                </tr>
+            </table>
+        </td>
 
-            <td>
-                <table>
-                    <thead>
-                        <tr>
-                            <th colspan="2">Nested Table 2</th>
-                        </tr>
-                        <tr>
-                            <th>Column 1</th>
-                            <th>Column 2</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Data 1</td>
-                            <td>Data 2</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
+        <td>
+            <table>
+                <tr>
+                    <td colspan="2">Nested Table 2</td>
+                </tr>
+                <tr>
+                    <td>Column 1</td>
+                    <td>Column 2</td>
+                </tr>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 
-        <tr>
-            <td>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nested Table 3</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <ul>
-                                    <li>List item 1</li>
-                                    <li>List item 2</li>
-                                    <li>List item 3</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td>Nested Table 3</td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>List item 1</li>
+                            <li>List item 2</li>
+                            <li>List item 3</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </td>
 
-            <td>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nested Table 4</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="background-color: black; color: white;">
-                                HTML
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-    </tbody>
+        <td>
+            <table>
+                <tr>
+                    <td>Nested Table 4</td>
+                </tr>
+                <tr>
+                    <td style="background-color: black; color: white;">
+                        HTML
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 </table>
 
 </body>
